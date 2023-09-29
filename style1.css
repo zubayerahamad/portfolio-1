@@ -15,12 +15,9 @@
 
 header{
     background-color: #FFF8F3;
-    background-image: url('../home_page/portfolio-resources-main/portfolio-resources-main/images/developer.png'), url('../home_page/portfolio-resources-main/portfolio-resources-main/images/header_bg.png');
+    background-image: url('../portfolio-1/portfolio-resources-main/portfolio-resources-main/images/developer.png'), url('../portfolio-1/portfolio-resources-main/portfolio-resources-main/images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: left, right, 0px ,0px;
-    
-
-
+    background-position: left, right, bottom;
 }
 nav{
     display: flex;
