@@ -1,0 +1,320 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.logo{
+    
+    font-weight: 800;
+    font-size: 45px;
+    
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+header{
+    background-color: #FFF8F3;
+    background-image: url('../home_page/portfolio-resources-main/portfolio-resources-main/images/developer.png'), url('../home_page/portfolio-resources-main/portfolio-resources-main/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left, right, 0px ,0px;
+    
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+    align-items: center;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 53px;
+    line-height: 64px;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    margin-top: 50px;
+}
+.button-border{
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    color: #FD6E0A;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    
+
+}
+    
+
+.button-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.banner-paraghaph{
+    color: var #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.first-element{
+    margin: 0px 230px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.first-element-center{
+    align-items: center;
+}
+
+ 
+main{
+    max-width: 1140px;
+    
+    margin: 0 auto;
+
+}
+
+.About-section{
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+.About-title{
+    
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.About-discrption{
+    
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.About-info-contaner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-weight: 400;
+    color: #757575;
+    font-size: 20px;
+    
+    
+}
+
+.info-discription{
+    font-weight: 700;
+    color: #474747;
+    font-size: 20px;
+}
+
+/* What I do section */
+.What-I-do-section{
+    margin-top: 130px;
+
+}
+.What-I-title{
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.What-I-description{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+
+}
+
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description{
+    
+    
+    color:  #757575;
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+    
+}
+
+
+/* Resumi */
+.resumi{
+    margin-top: 130px;
+}
+
+.resumi-title{
+    
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+
+    font-weight: 700;
+
+
+}
+
+.class-resumi-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.resumi-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.resumi-item .title{
+    color: #474747;
+
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+
+
+}
+.resumi-item .sub-title{
+    color: #757575;
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+
+}
+.resumi-item .discription{
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+
+}
+.resumi-button{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    text-align: center;
+    
+}
+
+/* contract */
+.contract{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    background: #FFF8F3;
+    
+}
+.contract input[type="text"], input[type="email"] textarea[type="massage"]{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+    
+}
+input{
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 461px;   
+}
+textarea{
+    height: 180px;
+    width: 461px;
+    
+    border-radius: 5px;
+    margin-bottom: 24px;
+
+}
+
+.contract-discription{
+    
+    margin-bottom: 30px;
+    
+}
+.contract a{
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.contract-title{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+}
+/* .submit-button{
+    margin-top: 24px;
+} */
+
+
